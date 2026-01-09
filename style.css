@@ -274,7 +274,18 @@ padding: 120px ;
     line-height: 20px;
     padding-top: 16px;
 }
-
+.f-icon img{
+width: 20px;
+height: 20px;
+}
+.f-f 
+{
+  display: flex;  
+  justify-content: space-between;
+  background-color: #001931;
+  width: 100%;
+  height: 384px;
+}
 
 
 
