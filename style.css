@@ -1,0 +1,286 @@
+*{
+    margin: 0px auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn{
+ background-color: #30B868;
+ padding: 16px 12px;
+ color: white;
+ border-radius: 4px;
+ border: none;
+ cursor: pointer;
+ gap: 145px;
+
+}
+header{
+    background:url(assets/hero-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height:750px; 
+    background-size: cover;   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+    background-color: #FFFFFF;
+   
+}
+ nav .logo{
+    width: 139px;
+    height: 60px;
+} 
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap:32px;
+    align-items: center;
+
+}
+#banner .banner-container{
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    
+}
+.banner-container{
+    width:1360px;
+    height:295px;
+    text-align: 50px;
+}
+ .banner-container-text .h6{ 
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   font-size: 16px;
+   background-color: #FFFFFF;
+   width:229px ;
+   height:35px ;
+   color: #30B868;
+   border-radius: 25px;
+   padding: 12px 8px;
+
+ }
+ .banner-container-text h1{
+    color: #FFFFFF;
+    font-size: 84px;
+ }
+ .banner-container-text span{
+    color:#30B868;
+ }
+ .banner-container-text p{
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 16px;
+ }
+.banner-button1{
+    width: 251px;
+    height: 52px;
+    margin-top: 165px;
+    padding: 16px 12px;
+    background-color: #30B868;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #FFFFFF;  
+ }
+ .banner-button2{
+    width: 251px;
+    height: 52px;
+    margin-top: 165px;
+    padding: 16px 12px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+     color: #ffffff;
+    background: transparent;
+     
+ }
+ #about{
+    width: 100%;
+    height: 450px;
+ }
+ 
+ 
+
+ .about-heading{
+    width: 1400px;
+    height:152px ;
+    border: 2px solid red;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 48px;
+ }
+.about-heading p{
+    padding-top:16px ;
+    color:#627382 ;
+    font-size:16px;
+}
+ .about-info{
+    
+   display:flex;
+   justify-content:space-around;
+   width: 1300px;
+   height: 300px;
+   padding-top:44px;
+   gap: 24px;
+   
+}
+ 
+    
+ .info-card{
+    width:322px ;
+    height:300px ;
+     /* border:1px solid black;   */
+      border-radius: 8px;
+  box-shadow: 0 6px 50px 0 #00000011;
+}
+.icon-box{
+    width: 60px;
+    height: 60px;
+    background-color:#F95555 ;
+    border-radius: 100px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 70px;
+  
+}
+.icon-box img{
+   width: 32px;
+   height: 32px;
+   font-weight: 900;
+}
+.info-card h6{
+  text-align: center;
+   font-size: 24px;
+   padding: 16px;
+}
+.info-card p{
+    width: 274px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    text-align: center;
+} 
+#apps{
+    width: 100%;
+    height: 850px;
+    background-color: #FFFFFF;
+    /* border: 1px solid red; */
+    padding-bottom: 120px;
+}
+.apps-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:1360px;
+    height:600px;
+    
+}
+
+.knowledge-logo img{
+width:600px;
+height:600px;
+padding: 120px ;
+}
+.second-brain{
+    width: 700px;
+    height: 400px;
+    margin-top: 120px;
+}
+.second-brain h6{
+    font-size: 16px;
+    color: #469165;
+    padding-bottom: 16px;
+    
+}
+.second-brain h2{
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+.second-brain p{
+    font-size: 16px;
+    color:#627382;
+    line-height: 20px;
+    padding-bottom:40px;
+}
+.personal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.personal-u {
+    width: 700px;
+    height: 128px;
+    list-style: none;
+    font-size: 16px;
+    line-height: 20px;
+    color:#001931 ;
+    padding-left: 15px;
+    list-style-image: url(./assets/CheckCircle.png);
+}
+
+
+.down{
+    width: 100%;
+    height: 506px;
+}
+.down-back{
+    background-color:#F7F6F2;
+    width: 1360px;
+    height: 384px;
+}
+.down-head h2{
+    font-size: 40px;
+    color: #001931;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 16px;
+}
+.down-head p{
+    color: #627382;
+    font-size: 16px;
+    line-height:24px;
+    text-align: center;
+    padding-bottom: 24px;
+}
+.bt-u{
+    font-size: 16px;
+   text-align: center;
+}
+.down-btn{
+ background-color: #30B868;
+ width: 194px;
+ height: 52px;
+ font-size:16px;
+ padding: 16px;
+ color: white;
+ border-radius:4px;
+ border: none;
+ cursor: pointer;
+}
+.down-p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 16px;
+}
+
+
+
+
+
+
+
+
+
+
