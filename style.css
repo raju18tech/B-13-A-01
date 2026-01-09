@@ -274,7 +274,12 @@ padding: 120px ;
     line-height: 20px;
     padding-top: 16px;
 }
+.f-icon img{
+width: 20px;
+height: 20px;
+padding-top: 1px;
 
+}
 
 .f-f 
 {
@@ -289,15 +294,22 @@ padding: 120px ;
     height: 60px;
     padding-top: 120px;
 }
-.f-icon p{
+.f-icon p {
     font-size: 20px;
     color: #FFFFFF;
+   
+  
+
+
+}
+.f-icon{
     padding: 120px;
 }
-.f-icon img{
-width: 20px;
-height: 20px;
+.last{
+    
 }
+
+
 
 
 
